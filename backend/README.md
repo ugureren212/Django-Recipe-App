@@ -6,19 +6,11 @@ This application needs to be ran in a seperate terminal along side the front end
 
 Tech stach: Django , Python, Postgress
 
-## Create virtual environment and Project setup
+### Install requirements, Run server
 
 ```
-python -m venv env
+pip install -r requirements.txt
 
-env/scripts/activate
-
-pip install
-```
-
-### Run server
-
-```
 python manage.py runserver
 ```
 
